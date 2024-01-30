@@ -180,7 +180,7 @@
                 "Diamond": 274.99
             },
             "ZoneTimes": {
-                "LaytonLake": {
+                "LaytonLakes": {
                     "Resting": ["00:00 - 04:30", "08:00 - 12:30", "20:00 - 00:30"],
                     "Feeding": ["04:00 - 08:30", "16:00 - 20:30"],
                     "Drinking": ["12:00 - 16:30"]
@@ -377,6 +377,42 @@
                 "VeryRare": ["Albino", "Melanistic"],
                 "MissionOnly": []
             }
+        },
+        "WhitetailedJackrabbit": {
+            "Name": "White-tailed Jackrabbit",
+            "AmmoClass": 1,
+            "MaxDifficulty": 3,
+            "Weight": {
+                "kg": {
+                    "min": "unknown",
+                    "max": 6
+                },
+                "lbs": {
+                    "min": "unknown",
+                    "max": 13
+                }
+            },
+            "Medals": {
+                "Silver": 2.80,
+                "Gold": 4.80,
+                "Diamond": 6.30
+            },
+            "ZoneTimes": {
+                "LaytonLakes": {
+                    "Resting": ["06:00 - 10:30", "10:00 - 14:30", "14:00 - 18:30"],
+                    "Feeding": ["00:00 - 03:30", "03:00 - 06:30"],
+                    "Drinking": []
+                }
+            },
+            "Callers": [],
+            "ScentLures": [],
+            "FurTypes": {
+                "Common": ["Grey", "Light Brown", "Brown"],
+                "Uncommon": [],
+                "Rare": [],
+                "VeryRare": ["Albino"],
+                "MissionOnly": []
+            }
         }
     },
     "GreatOnes": {
@@ -389,7 +425,7 @@
                 "lbs": 1543
             },
             "ZoneTimes": {
-                "LaytonLake": {
+                "LaytonLakes": {
                     "Resting": ["00:00 - 04:30", "08:00 - 12:30", "20:00 - 00:30"],
                     "Feeding": ["04:00 - 08:30", "16:00 - 20:30"],
                     "Drinking": ["12:00 - 16:30"]
