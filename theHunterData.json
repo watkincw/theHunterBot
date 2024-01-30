@@ -1,0 +1,434 @@
+{
+    "Guns": {},
+    "Animals": {
+        "EXAMPLE": {
+            "Name": "",
+            "AmmoClass": 0,
+            "MaxDifficulty": 0,
+            "Weight": {
+                "kg": {
+                    "min": 0,
+                    "max": 0
+                },
+                "lbs": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "Medals": {
+                "Silver": 0,
+                "Gold": 0,
+                "Diamond": 0
+            },
+            "ZoneTimes": {
+                "RESERVE": {
+                    "Resting": [],
+                    "Feeding": [],
+                    "Drinking": []
+                }
+            },
+            "Callers": [],
+            "ScentLures": [],
+            "FurTypes": {
+                "Common": [],
+                "Uncommon": [],
+                "Rare": [],
+                "VeryRare": [],
+                "MissionOnly": []
+            }
+        },
+        "EurasianBrownBear": {
+            "Name": "Eurasian Brown Bear",
+            "AmmoClass": 7,
+            "MaxDifficulty": 9,
+            "Weight": {
+                "kg": {
+                    "min": 110,
+                    "max": 482
+                },
+                "lbs": {
+                    "min": 243,
+                    "max": 1063
+                }
+            },
+            "Medals": {
+                "Silver": 18.60,
+                "Gold": 23.80,
+                "Diamond": 27.70
+            },
+            "ZoneTimes": {
+                "Medved-Taiga": {
+                    "Resting": ["08:00 - 12:30", "12:00 - 16:30", "16:00 - 20:30"],
+                    "Feeding": ["00:00 - 04:30", "04:00 - 08:30"],
+                    "Drinking": ["20:00 - 00:30"]
+                },
+                "Revontuli": {
+                    "Resting": ["08:00 - 12:30", "12:00 - 16:30", "16:00 - 20:30"],
+                    "Feeding": ["00:00 - 04:30", "04:00 - 08:30"],
+                    "Drinking": ["20:00 - 00:30"]
+                }
+            },
+            "Callers": ["Preditor 'Distressed Fawn' Caller"],
+            "ScentLures": [],
+            "FurTypes": {
+                "Common": ["Light Brown", "Cinnamon", "Red Brown"],
+                "Uncommon": ["Gold", "Blone", "Spirit", "Grey", "Dark Brown"],
+                "Rare": ["Melanistic"],
+                "VeryRare": ["Albino"],
+                "MissionOnly": []
+            }
+        },
+        "EurasianLynx": {
+            "Name": "Eurasian Lynx",
+            "AmmoClass": 3,
+            "MaxDifficulty": 9,
+            "Weight": {
+                "kg": {
+                    "min": 8,
+                    "max": 45
+                },
+                "lbs": {
+                    "min": 18,
+                    "max": 99
+                }
+            },
+            "Medals": {
+                "Silver": 18.58,
+                "Gold": 23.78,
+                "Diamond": 27.68
+            },
+            "ZoneTimes": {
+                "Medved-Taiga": {
+                    "Resting": ["08:00 - 12:30", "12:00 - 16:30", "16:00 - 20:30"],
+                    "Feeding": ["00:00 - 4:30", "04:00 - 08:30", "20:00 - 00:30"],
+                    "Drinking": ["03:00 - 06:00"]
+                },
+                "Revontuli": {
+                    "Resting": ["09:00 - 12:30", "12:00 - 16:30", "16:00 - 20:30"],
+                    "Feeding": ["00:00 - 03:30", "06:00 - 9:30", "20:00 - 00:30"],
+                    "Drinking": ["03:00 - 06:30"]
+                }
+            },
+            "Callers": ["Preditor 'Jackrabbit' Caller"],
+            "ScentLures": [],
+            "FurTypes": {
+                "Common": ["Grey", "Light Brown"],
+                "Uncommon": [],
+                "Rare": ["Piebald"],
+                "VeryRare": ["Albino", "Melanistic"],
+                "MissionOnly": []
+            }
+        },
+        "GrayWolf": {
+            "Name": "Gray Wolf",
+            "AmmoClass": 5,
+            "MaxDifficulty": 9,
+            "Weight": {
+                "kg": {
+                    "min": 30,
+                    "max": 80
+                },
+                "lbs": {
+                    "min": 66,
+                    "max": 176
+                }
+            },
+            "Medals": {
+                "Silver": 32.00,
+                "Gold": 36.00,
+                "Diamond": 39.00
+            },
+            "ZoneTimes": {
+                "Medved-Taiga": {
+                    "Resting": ["06:00 - 10:00", "07:00 - 11:30", "11:00 - 15:30", "15:00 - 19:30"],
+                    "Feeding": ["03:00 - 07:30", "19:00 - 23:30"],
+                    "Drinking": ["00:00 - 03:30", "17:00 - 20:00"]
+                },
+                "YukonValley": {
+                    "Resting": ["06:00 - 10:00", "07:00 - 11:30", "11:00 - 15:30", "15:00 - 19:30"],
+                    "Feeding": ["03:00 - 07:30", "19:00 - 23:30"],
+                    "Drinking": ["00:00 - 03:30", "17:00 - 20:00"]
+                }
+            },
+            "Callers": ["Preditor 'Jackrabbit' Caller", "Preditor 'Distressed Fawn' Caller"],
+            "ScentLures": [],
+            "FurTypes": {
+                "Common": ["Grey"],
+                "Uncommon": [],
+                "Rare": [],
+                "VeryRare": ["Dark Grey", "Red Brown", "Eggwhite", "Melanistic", "Albino"],
+                "MissionOnly": []
+            }
+        },
+        "Moose": {
+            "Name": "Moose",
+            "AmmoClass": 8,
+            "MaxDifficulty": 5,
+            "Weight": {
+                "kg": {
+                    "min": 320,
+                    "max": 620
+                },
+                "lbs": {
+                    "min": 705,
+                    "max": 1367
+                }
+            },
+            "Medals": {
+                "Silver": 86.22,
+                "Gold": 194.09,
+                "Diamond": 274.99
+            },
+            "ZoneTimes": {
+                "LaytonLake": {
+                    "Resting": ["00:00 - 04:30", "08:00 - 12:30", "20:00 - 00:30"],
+                    "Feeding": ["04:00 - 08:30", "16:00 - 20:30"],
+                    "Drinking": ["12:00 - 16:30"]
+                },
+                "Medved-Taiga": {
+                    "Resting": ["00:00 - 04:30", "08:00 - 12:30", "20:00 - 00:30"],
+                    "Feeding": ["04:00 - 08:30", "16:00 - 20:30"],
+                    "Drinking": ["12:00 - 16:30"]
+                },
+                "NewEngland": {
+                    "Resting": ["00:00 - 04:30", "08:00 - 12:30", "20:00 - 00:30"],
+                    "Feeding": ["04:00 - 08:30", "16:00 - 20:30"],
+                    "Drinking": ["12:00 - 16:30"]
+                },
+                "Revontuli": {
+                    "Resting": ["00:00 - 04:30", "08:00 - 12:30", "20:00 - 00:30"],
+                    "Feeding": ["04:00 - 08:30", "16:00 - 20:30"],
+                    "Drinking": ["12:00 - 16:30"]
+                },
+                "TeAwaroa": {
+                    "Resting": ["00:00 - 04:30", "08:00 - 12:30", "20:00 - 00:30"],
+                    "Feeding": ["04:00 - 08:30", "16:00 - 20:30"],
+                    "Drinking": ["12:00 - 16:30"]
+                },
+                "YukonValley": {
+                    "Resting": ["00:00 - 04:30", "08:00 - 12:30", "20:00 - 00:30"],
+                    "Feeding": ["04:00 - 08:30", "16:00 - 20:30"],
+                    "Drinking": ["12:00 - 16:30"]
+                }
+            },
+            "Callers": ["Moose Caller"],
+            "ScentLures": ["Moose Scent"],
+            "FurTypes": {
+                "Common": ["Tan", "Brown", "Light Brown", "Dark Brown"],
+                "Uncommon": [],
+                "Rare": ["Piebald"],
+                "VeryRare": ["Albino", "Melanistic"],
+                "MissionOnly": ["Mocha (Awaroa)"]
+            }
+        },
+        "Reindeer": {
+            "Name": "Reindeer",
+            "AmmoClass": 6,
+            "MaxDifficulty": 5,
+            "Weight": {
+                "kg": {
+                    "min": 80,
+                    "max": 182
+                },
+                "lbs": {
+                    "min": 176,
+                    "max": 401
+                }
+            },
+            "Medals": {
+                "Silver": 152.53,
+                "Gold": 311.21,
+                "Diamond": 430.23
+            },
+            "ZoneTimes": {
+                "Medved-Taiga": {
+                    "Resting": ["00:00 - 04:30", "12:00 - 16:30", "20:00 - 00:30"],
+                    "Feeding": ["08:00 - 12:30", "16:00 - 20:30"],
+                    "Drinking": ["04:00 - 08:30"]
+                }
+            },
+            "Callers": [],
+            "ScentLures": [],
+            "FurTypes": {
+                "Common": [],
+                "Uncommon": [],
+                "Rare": [],
+                "VeryRare": [],
+                "MissionOnly": []
+            }
+        },
+        "SiberianMuskDeer": {
+            "Name": "Siberian Musk Deer",
+            "AmmoClass": 2,
+            "MaxDifficulty": 3,
+            "WeightRangeLbs": "20lbs-37lbs",
+            "WeightRangeKg": "9kg-17kg",
+            "Weight": {
+                "kg": {
+                    "min": 9,
+                    "max": 17
+                },
+                "lbs": {
+                    "min": 20,
+                    "max": 37
+                }
+            },
+            "Medals": {
+                "Silver": 60.00,
+                "Gold": 168.00,
+                "Diamond": 249.00
+            },
+            
+            "ZoneTimes": {
+                "Medved-Taiga": {
+                    "Resting": ["20:00 - 00:30", "00:00 - 04:30", "04:00 - 08:30"],
+                    "Feeding": ["12:00 - 16:30", "16:00 - 20:30"],
+                    "Drinking": ["08:00 - 12:30"]
+                }
+            },
+            "Callers": [],
+            "ScentLures": ["Musk Deer Scent"],
+            "FurTypes": {
+                "Common": ["Grey Brown", "Dark Brown", "Orange"],
+                "Uncommon": [],
+                "Rare": ["Piebald"],
+                "VeryRare": ["Albino", "Melanistic"],
+                "MissionOnly": []
+            }
+        },
+        "WesternCapercaillie": {
+            "Name": "Western Capercaillie",
+            "AmmoClass": 1,
+            "MaxDifficulty": 3,
+            "Weight": {
+                "kg": {
+                    "min": 1.5,
+                    "max": 5
+                },
+                "lbs": {
+                    "min": 3,
+                    "max": 11
+                }
+            },
+            "Medals": {
+                "Silver": 2.20,
+                "Gold": 3.50,
+                "Diamond": 4.64
+            },
+            "ZoneTimes": {
+                "Medved-Taiga": {
+                    "Resting": ["21:00 - 00:00", "00:00 - 04:00"],
+                    "Feeding": ["04:00 - 08:00", "14:00 - 18:00"],
+                    "Drinking": []
+                }
+            },
+            "Callers": [],
+            "ScentLures": [],
+            "FurTypes": {
+                "Common": ["Dark", "Brown", "Ochre", "Bright"],
+                "Uncommon": [],
+                "Rare": ["Leucistic"],
+                "VeryRare": ["Pale"],
+                "MissionOnly": []
+            }
+        },
+        "WildBoar": {
+            "Name": "Wild Boar",
+            "AmmoClass": 4,
+            "MaxDifficulty": 5,
+            "Weight": {
+                "kg": {
+                    "min": 25,
+                    "max": 240
+                },
+                "lbs": {
+                    "min": 55,
+                    "max": 529
+                }
+            },
+            "Medals": {
+                "Silver": 37.50,
+                "Gold": 98.50,
+                "Diamond": 144.25
+            },
+            "ZoneTimes": {
+                "HirschfeldenHunting": {
+                    "Resting": ["06:00 - 10:30", "10:00 - 14:30", "14:00 - 17:30"],
+                    "Feeding": ["03:00 - 06:30", "17:00 - 21:30", "21:00 - 00:30"],
+                    "Drinking": ["00:00 - 03:30"]
+                },
+                "Medved-Taiga": {
+                    "Resting": ["06:00 - 10:30", "10:00 - 14:30", "14:00 - 17:30"],
+                    "Feeding": ["03:00 - 06:30", "17:00 - 21:30", "21:00 - 00:30"],
+                    "Drinking": ["00:00 - 03:30"]
+                },
+                "CuatroColinasGame": {
+                    "Resting": ["06:00 - 10:30", "10:00 - 14:30", "14:00 - 17:30"],
+                    "Feeding": ["03:00 - 06:30", "17:00 - 21:30", "21:00 - 00:30"],
+                    "Drinking": ["00:00 - 03:30"]
+                }
+            },
+            "Callers": ["Wild Boar Caller"],
+            "ScentLures": ["Wild Boar Scent"],
+            "FurTypes": {
+                "Common": ["Brown", "Light Brown", "Dark Brown"],
+                "Uncommon": [],
+                "Rare": ["Blackgold"],
+                "VeryRare": ["Albino", "Melanistic"],
+                "MissionOnly": []
+            }
+        }
+    },
+    "GreatOnes": {
+        "Moose": {
+            "Name": "Great One Moose",
+            "AmmoClass": 8,
+            "Difficulty": 10,
+            "Weight": {
+                "kg": 700,
+                "lbs": 1543
+            },
+            "ZoneTimes": {
+                "LaytonLake": {
+                    "Resting": ["00:00 - 04:30", "08:00 - 12:30", "20:00 - 00:30"],
+                    "Feeding": ["04:00 - 08:30", "16:00 - 20:30"],
+                    "Drinking": ["12:00 - 16:30"]
+                },
+                "Medved-Taiga": {
+                    "Resting": ["00:00 - 04:30", "08:00 - 12:30", "20:00 - 00:30"],
+                    "Feeding": ["04:00 - 08:30", "16:00 - 20:30"],
+                    "Drinking": ["12:00 - 16:30"]
+                },
+                "NewEngland": {
+                    "Resting": ["00:00 - 04:30", "08:00 - 12:30", "20:00 - 00:30"],
+                    "Feeding": ["04:00 - 08:30", "16:00 - 20:30"],
+                    "Drinking": ["12:00 - 16:30"]
+                },
+                "Revontuli": {
+                    "Resting": ["00:00 - 04:30", "08:00 - 12:30", "20:00 - 00:30"],
+                    "Feeding": ["04:00 - 08:30", "16:00 - 20:30"],
+                    "Drinking": ["12:00 - 16:30"]
+                },
+                "TeAwaroa": {
+                    "Resting": ["00:00 - 04:30", "08:00 - 12:30", "20:00 - 00:30"],
+                    "Feeding": ["04:00 - 08:30", "16:00 - 20:30"],
+                    "Drinking": ["12:00 - 16:30"]
+                },
+                "YukonValley": {
+                    "Resting": ["00:00 - 04:30", "08:00 - 12:30", "20:00 - 00:30"],
+                    "Feeding": ["04:00 - 08:30", "16:00 - 20:30"],
+                    "Drinking": ["12:00 - 16:30"]
+                }
+            },
+            "Callers": ["Moose Caller"],
+            "ScentLures": ["Moose Scent"],
+            "FurTypes": {
+                "Common": [],
+                "Uncommon": [],
+                "Rare": [],
+                "VeryRare": [],
+                "MissionOnly": []
+            }
+        }
+    }
+}
