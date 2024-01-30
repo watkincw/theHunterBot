@@ -24,5 +24,3 @@ client.once(Events.ClientReady, readyDiscord);
 client.login(process.env.TOKEN);
 
 client.on(Events.InteractionCreate, handleInteraction);
-
-console.log('this is a test')
