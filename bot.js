@@ -20,7 +20,5 @@ async function handleInteraction(interaction) {
 }
 
 client.once(Events.ClientReady, readyDiscord);
-
 client.login(process.env.TOKEN);
-
 client.on(Events.InteractionCreate, handleInteraction);
