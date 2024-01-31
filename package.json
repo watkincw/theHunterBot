@@ -2,11 +2,11 @@
   "name": "thehunterbot",
   "version": "1.0.0",
   "description": "",
-  "main": "bot.js",
+  "main": "./src/bot.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon ./bot.js"
+    "dev": "nodemon ./src/bot.js"
   },
   "keywords": [],
   "author": "",
