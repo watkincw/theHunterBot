@@ -1,3 +1,5 @@
+// module.exports = 
+export const theHunterData = 
 {
     "Guns": {},
     "Animals": {
